@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<hcml version="1.0">
+
+<welcome>
+  Velkommen til Kokain og Sømpistoler!
+  Hvad kan jeg hjælpe med?
+</welcome>
+
+<!--Sømpistol-->
+
+<category>
+  <pattern>sømpistol *</pattern>
+  <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+</category>  
+
+<category>
+  <pattern>* sømpistol</pattern>
+  <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+</category>
+
+  
+  <category>
+    <pattern>* sømpistol *</pattern>
+    <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+  </category>
+
+  <category>
+    <pattern>sømpistol</pattern>
+    <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+  </category>
+  
+<!--Sømpistoler-->
+
+
+<category>
+  <pattern>sømpistoler *</pattern>
+  <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+</category>  
+
+<category>
+  <pattern>* sømpistoler</pattern>
+  <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+</category>
+
+  
+  <category>
+    <pattern>* sømpistoler *</pattern>
+    <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+  </category>
+
+  <category>
+    <pattern>sømpistoler</pattern>
+    <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+  </category>
+ 
+<!--Sømpistolerne-->
+
+
+<category>
+  <pattern>sømpistolerne *</pattern>
+  <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+</category>  
+
+<category>
+  <pattern>* sømpistolerne</pattern>
+  <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+</category>
+
+  
+  <category>
+    <pattern>* sømpistolerne *</pattern>
+    <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+  </category>
+
+  <category>
+    <pattern>sømpistolerne</pattern>
+    <template>Vi har et bredt udvalg af sømpistoler. vil du have en liste over de mest populære?</template>
+  </category>
+
+<!--Kokain-->
+<category>
+  <pattern>* kokain</pattern>
+  <template>Vi har lige nu tilbud på det helt nye, dansk producerede TURBO-MEL! </template>
+</category>
+
+<category>
+  <pattern>kokain *</pattern>
+  <template>Vi har lige nu tilbud på det helt nye, dansk producerede TURBO-MEL! </template>
+</category>
+
+<category>
+  <pattern>* kokain *</pattern>
+  <template>Vi har lige nu tilbud på det helt nye, dansk producerede TURBO-MEL! </template>
+</category>
+
+<category>
+  <pattern>kokain</pattern>
+  <template>Vi har lige nu tilbud på det helt nye, dansk producerede TURBO-MEL! </template>
+</category>
+
+<!--Coke-->
+<category>
+  <pattern>* coke</pattern>
+  <template>Vi har lige nu tilbud på det helt nye, dansk producerede TURBO-MEL! </template>
+</category>
+
+<category>
+  <pattern>coke *</pattern>
+  <template>Vi har lige nu tilbud på det helt nye, dansk producerede TURBO-MEL! </template>
+</category>
+
+<category>
+  <pattern>* coke *</pattern>
+  <template>Vi har lige nu tilbud på det helt nye, dansk producerede TURBO-MEL! </template>
+</category>
+
+<category>
+  <pattern>coke</pattern>
+  <template>Vi har lige nu tilbud på det helt nye, dansk producerede TURBO-MEL! </template>
+</category>
+
+<!--Begge dele-->
+<category>
+  <pattern>begge dele</pattern>
+  <template>Ah, den fulde pakke! vi har en fed pakkedeal med 20 gram TURBO-MEL sammen med den nyeste NailDaddy9000, der er fuldautomatisk, og uden sikring!</template>
+</category>
+
+<category>
+  <pattern>* begge dele</pattern>
+  <template>Ah, den fulde pakke! vi har en fed pakkedeal med 20 gram TURBO-MEL sammen med den nyeste NailDaddy9000, der er fuldautomatisk, og uden sikring! </template>
+</category>
+
+<category>
+  <pattern>begge dele *</pattern>
+  <template>Ah, den fulde pakke! vi har en fed pakkedeal med 20 gram TURBO-MEL sammen med den nyeste NailDaddy9000, der er fuldautomatisk, og uden sikring!</template>
+</category>
+
+<category>
+  <pattern>* begge dele *</pattern>
+  <template>Ah, den fulde pakke! vi har en fed pakkedeal med 20 gram TURBO-MEL sammen med den nyeste NailDaddy9000, der er fuldautomatisk, og uden sikring!</template>
+</category>
+
+
+
+<!--NailDaddy9000 priser-->
+<database>
+
+    <set2 name="nailDaddyPriser">
+      <key>NailDaddy9000 basic</key> <value>En pose matadormix</value>
+    </set2>
+    <set2 name="nailDaddyPriser">
+      <key>Naildaddy9000 Pro</key> <value>To poser matadormix</value>
+    </set2>
+
+    
+    
+</database>
+
+
+<!--NailDaddy-->
+<category>
+  <pattern>* naildaddy</pattern>
+  <template>NailDaddy9000 er udstyret med fuldautomatisk funktion, bæltemagasin og kiggertsigte!
+  basisversionen koster kun: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 basic
+  </get2>
+  ,men du kan også gå all-in og købe pro-pakken til: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 Pro
+  </get2>
+  </template>
+</category>
+
+<category>
+  <pattern>naildaddy *</pattern>
+  <template>NailDaddy9000 er udstyret med fuldautomatisk funktion, bæltemagasin og kiggertsigte!
+  basisversionen koster kun: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 basic
+  </get2>
+  ,men du kan også gå all-in og købe pro-pakken til: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 Pro
+  </get2>
+  </template>
+</category>
+
+<category>
+  <pattern>* naildaddy *</pattern>
+  <template>NailDaddy9000 er udstyret med fuldautomatisk funktion, bæltemagasin og kiggertsigte!
+  basisversionen koster kun: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 basic
+  </get2>
+  ,men du kan også gå all-in og købe pro-pakken til: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 Pro
+  </get2>
+  </template>
+</category>
+
+<category>
+  <pattern>naildaddy</pattern>
+  <template>NailDaddy9000 er udstyret med fuldautomatisk funktion, bæltemagasin og kiggertsigte!
+  basisversionen koster kun: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 basic
+  </get2>
+  ,men du kan også gå all-in og købe pro-pakken til: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 Pro
+  </get2>
+  </template>
+</category>
+
+
+
+<!--NailDaddy9000-->
+
+<category>
+  <pattern>* naildaddy9000</pattern>
+  <template>NailDaddy9000 er udstyret med fuldautomatisk funktion, bæltemagasin og kiggertsigte!
+  basisversionen koster kun: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 basic
+  </get2>
+  ,men du kan også gå all-in og købe pro-pakken til: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 Pro
+  </get2>
+  </template>
+</category>
+
+
+<category>
+  <pattern>naildaddy9000 *</pattern>
+  <template>NailDaddy9000 er udstyret med fuldautomatisk funktion, bæltemagasin og kiggertsigte!
+  basisversionen koster kun: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 basic
+  </get2>
+  ,men du kan også gå all-in og købe pro-pakken til: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 Pro
+  </get2>
+  </template>
+</category>
+
+<category>
+  <pattern>* naildaddy9000 *</pattern>
+  <template>NailDaddy9000 er udstyret med fuldautomatisk funktion, bæltemagasin og kiggertsigte!
+  basisversionen koster kun: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 basic
+  </get2>
+  ,men du kan også gå all-in og købe pro-pakken til: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 Pro
+  </get2>
+  </template>
+</category>
+
+
+<category>
+  <pattern>naildaddy9000</pattern>
+  <template>NailDaddy9000 er udstyret med fuldautomatisk funktion, bæltemagasin og kiggertsigte!
+  basisversionen koster kun: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 basic
+  </get2>
+  ,men du kan også gå all-in og købe pro-pakken til: 
+  <get2 name="nailDaddyPriser">
+    NailDaddy9000 Pro
+  </get2>
+  </template>
+</category>
+
+
+<!--Dansk sprogmodul-->
+<category>
+  <pattern>kamelåså</pattern>
+  <template>Aaah, kamelåså!</template>
+</category>
+
+<!--Easter Egg-->
+<category>
+  <pattern>xyzzy</pattern>
+  <template>A WINNER IS YOU</template> 
+</category>
+
+
+<!--Catch-->
+<category>
+  <pattern>*</pattern>
+  <template>
+    Ingen spørgsmål! luk røven og køb!
+  </template>
+</category>
+
+</hcml>
